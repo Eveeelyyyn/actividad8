@@ -1,0 +1,166 @@
+body{
+    font-family: Georgia, Cambria, "Times New Roma", serif;
+    font-size: 100%;
+    background-image: url(../images/background-pattern.png);
+}
+
+/* Firs <nav> */
+.container-nav{
+   margin-left: 3.8em;
+   margin-right: 3.8em;
+}
+
+header nav:first-child{
+    background-color: rgb(33, 54, 66);
+    padding: 0.3em;
+    text-align: end;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 0 0.5em 0;
+}
+
+
+/* Firs <title> */
+.container-h1{
+    margin-left: 3.8em;
+    margin-right: 3.8em;
+}
+
+h1{
+    background-image: url(../images/header-background.png);
+    background-repeat: repeat;
+}
+
+/* Second <nav> */
+.container-secondnav{
+    margin-left: 3.8em;
+    margin-right: 3.8em;
+}
+
+header nav:nth-child(n+2){
+    background-color: rgb(223, 232, 237);
+    padding: 0.3em;
+}
+
+
+/* Imagen Jack Smith */
+article div:first-child{
+    background-color: white;  
+    padding: 0.5em;
+    margin: 1em 4em 1em 4em;   /*Margen: Superior | Derecha | Inferior | Izquierda */
+    text-align: center;
+}
+
+article div img{
+    padding: 0.25em;
+    border: solid 1.5px rgb(167, 171, 173);
+    justify-content: center;
+}
+
+
+/* Sectiones <section> */
+.container-section{
+    border: solid 0.1em black;
+    margin: 0 4em 1em 4em;
+}
+
+h3{
+    color: white;
+    background-image: url(../images/header-background.png);
+    background-repeat: repeat;
+    padding: 0.4em;
+}
+
+article section p{
+    background-color: white;
+    padding: 0.5em;
+}
+
+/* Section de fugura <section> ------------------------- */
+article section figure{
+    background-color: white;
+    padding: 0.5em;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+p em{
+    font-size: 0.875rem;
+    color: #728b96;
+    font-style: italic;
+}
+
+/*List*/
+div ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 0 0.5em 0;
+}
+
+/* Section figure - Icons */
+a[href^="mailto"] {
+    background: url(../images/email.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+a[href^="#edit"] {
+    background: url(../images/edit.png) no-repeat 0 3px;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+a[href^="#flag"] {
+    background: url(../images/flag.png) no-repeat 0 3px;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+article section div ul{
+    background-color: rgb(33, 54, 66);
+    padding: 0.4em;
+}
+
+article section div ul li{
+    background-color:  rgb(223, 232, 237);
+    border-radius: 0.1em;
+    padding: 0.1em;
+}
+/* ----------------------------------------------------- */
+
+a:hover{
+    color: rgb(46, 64, 83);
+}
+
+a{
+    color: rgba(54, 178, 212, 0.778);
+}
+
+
+/* Footer <footer> */
+footer{
+    color: white;
+    background-color: rgb(33, 54, 66);
+    margin: 1em 4em 1em 4em; 
+    padding: 0.5em;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
